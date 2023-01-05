@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HAM SHOP </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+</div>
+<!--navigation ends-->
+
+
+<div class="container-fluid bg-secondary py-5 mb-5 hero-header">
+    <div class="container py-5">
+        <div class="row justify-content-start">
+            <div class="col-lg-8 text-center text-lg-start">
+                <h1 class="display-1 text-uppercase text-dark mb-lg-4">hammy Shop</h1>
+                <h1 class="text-uppercase text-white mb-lg-4">Make Your Hamster Ha(m)py</h1>
+                <p class="fs-4 text-dark mb-lg-4">Unlike cats or dogs, hamsters do not require extensive training. No litter box training or obedience courses are needed!.  </p>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Read More</a>
+                    <button type="button" class="btn-play" data-bs-toggle="modal"
+                        data-src="https://www.youtube.com/embed/HAbC7EZ6IVI" data-bs-target="#videoModal">
+                        <span></span>
+                    </button>
+                    <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">Play Video</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Modal Start -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div >
+<!-- Video Modal End -->
+
+<div id="offer-placeholder" > </div>
+<div id="footer-placeholder"></div>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("navigation.html ");
+        $("#offer-placeholder").load("about.html #offer-section");
+        $("#footer-placeholder").load("footer.html ");
+      
+    });
+    </script>
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+    </body>
